@@ -9,3 +9,9 @@ body{
     background-color: rgba(14, 14, 14, 0.841);
     box-shadow: 2px 3px 4px rgb(216, 216, 216);
 }
+
+.custom-alert{
+    position: fixed;
+    top:25px;
+    right:25px;
+}
