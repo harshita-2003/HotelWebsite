@@ -1,6 +1,11 @@
 <?php
     require('inc/essentials.php');
- require('inc/db_config.php')
+    require('inc/db_config.php');
+
+    session_start();
+    if(isset($_SESSION['adminLogin']) && $_SESSION['adminLogin']==true){
+        redirect('dashboard.php');
+    }
 ?>
 
 <!DOCTYPE html>
@@ -64,10 +69,14 @@
         $res = select($query,$values,$datatype);
         // print_r($res);
         if($res->num_rows==1){
-            echo"got user";
+            // echo"got user";
+            $row = mysqli_fetch_assoc($res);
+            $_SESSION['adminLogin'] = true;
+            $_SESSION['adminId'] = $row['sr_no'];
+            redirect('dashboard.php');
         }
         else{
-            alert('error','Login failed - Invalid Credentials');
+            alert('warning','Login failed - Invalid Credentials');
         }
     }
 ?>
