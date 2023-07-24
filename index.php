@@ -105,7 +105,7 @@
                         <div class="text p-5 text-center">
                             <h3><a href="room-single.html">Suite Room</a></h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <p class="mb-0 mt-2"><span class="me-3 price">$450 <small>/ night</small></span><a href="#" class="btn-custom">Book Now</a></p>
+                            <p class="mb-0 mt-2"><span class="me-3 price">$450 <small>/ night</small></span><a href="rooms.php" class="btn-custom">Book Now</a></p>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                         <div class="text p-5 text-center">
                             <h3><a href="room-single.html">Family Room</a></h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <p class="mb-0 mt-2"><span class="me-3 price">$450 <small>/ night</small></span><a href="#" class="btn-custom">Book Now</a></p>
+                            <p class="mb-0 mt-2"><span class="me-3 price">$450 <small>/ night</small></span><a href="rooms.php" class="btn-custom">Book Now</a></p>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                         <div class="text p-5 text-center">
                             <h3><a href="room-single.html">Deluxe Room</a></h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <p class="mb-0 mt-2"><span class="me-3 price">$450 <small>/ night</small></span><a href="#" class="btn-custom">Book Now</a></p>
+                            <p class="mb-0 mt-2"><span class="me-3 price">$450 <small>/ night</small></span><a href="rooms.php" class="btn-custom">Book Now</a></p>
                         </div>
                     </div>
                 </div>
