@@ -14,5 +14,7 @@
 </head>
 <body>
     <?php require('inc/header.php')?>
+
+    
 </body>
 </html>
