@@ -1,10 +1,3 @@
-<style>
-    .custom-alert{
-        top:25px;
-        right:25px;
-    }
-</style>
-
 <?php
 
     function adminlogin(){
